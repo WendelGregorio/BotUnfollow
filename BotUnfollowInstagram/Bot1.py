@@ -29,10 +29,10 @@ driver.get("https://www.instagram.com")
 #sleep sendo utilizado para dar o tempo de carregar a página
 sleep(4)
 #inserindo login no elemento HTML de input para login
-driver.find_element(By.XPATH,'//input[@name="username"]').send_keys("testewendelg")
+driver.find_element(By.XPATH,'//input[@name="username"]').send_keys("username")
 
 #inserindo senha no elemento HTML de input para senha
-driver.find_element(By.XPATH,'//input[@name="password"]').send_keys("Jamanta2410")
+driver.find_element(By.XPATH,'//input[@name="password"]').send_keys("password")
 
 #realizando click no botão de submit
 driver.find_element(By.XPATH,'//button[@type="submit"]').click()
